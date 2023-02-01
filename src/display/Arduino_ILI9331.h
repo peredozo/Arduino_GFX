@@ -157,6 +157,7 @@ protected:
 
 private:
   uint16_t _MC, _MP, _SC, _EC, _SP, _EP;
+  bool _ALREADY_INITIALIZED = false;
 };
 
 #endif

@@ -122,6 +122,9 @@ void Arduino_ILI9331::displayOff(void)
 // a series of LCD commands stored in PROGMEM byte array.
 void Arduino_ILI9331::tftInit()
 {
+  if(_ALREADY_INITIALIZED) return;
+  _ALREADY_INITIALIZED = true;
+
   if (_rst != GFX_NOT_DEFINED)
   {
     pinMode(_rst, OUTPUT);
