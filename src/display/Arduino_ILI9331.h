@@ -12,7 +12,7 @@
 #include "../Arduino_TFT.h"
 
 #define ILI9331_TFTWIDTH 240  /// ILI9331 max TFT width
-#define ILI9331_TFTHEIGHT 320 /// ILI9331 max TFT height
+#define ILI9331_TFTHEIGHT 240 /// ILI9331 max TFT height
 
 #define ILI9331_RST_DELAY 150
 
